@@ -1,0 +1,13 @@
+Android SQLite Database Practice Work
+
+Android provides several ways to store user and app data. SQLite is one way of storing user data. SQLite is a very light weight database which comes with Android OS. In this assignment we’ll be try to write classes to handle all SQLite operations.
+
+Storing Students contacts in SQLite database. We should using a table called Students to store students details. This table contains three columns id (INT), name (TEXT), phoneNumber(TEXT), email(TEXT).
+
+
+(1)	Create the MainActivity which has 3 EditText views to hold the student data as well a save button ,which will add them to the database.
+(2)	Create a StudentListActivity ,it will have a Recyclerview showing the list of students retrieved from the Database
+(3)	Create a model class named “Student” contains the student information.
+(4)	Create the database helper class
+(5)	Write the CRUD operations.
+(6)	Use the Database from the Main Activity
